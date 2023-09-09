@@ -1,0 +1,28 @@
+package in.com.hardio;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class TestSerialization {
+public static void main(String[] args) throws Exception {
+	
+	FileOutputStream file = new FileOutputStream("C:\\Users\\Lenovo\\OneDrive\\Desktop\\CONTENT\\MM.text");
+    ObjectOutputStream out = new ObjectOutputStream(file);
+    
+    Employee e = new Employee ();
+    
+    e.empId =1;
+    e.name = "Shubham";
+    e.salary = 100000;
+    e.bonus	= 5000;
+    e.total = e.salary+e.bonus;
+    
+    out.writeObject(e);
+    file.close();
+    out.close();
+    
+    System.out.println("obj converted into byte stream!!!");
+}
+	
+}

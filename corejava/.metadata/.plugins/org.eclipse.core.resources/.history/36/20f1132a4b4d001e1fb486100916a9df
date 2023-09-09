@@ -1,0 +1,13 @@
+package in.com.hardio;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class FileInput1 {
+public static void main(String[] args) throws Exception {
+	
+	FileInputStream in = new FileInputStream("C:\\Users\\Lenovo\\OneDrive\\Desktop\\CONTENT\\tree.jpg");
+	
+	FileOutputStream out = new FileOutputStream("")
+}
+}

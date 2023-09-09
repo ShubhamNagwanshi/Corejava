@@ -1,0 +1,15 @@
+package in.com.interface1;
+
+public class TestAccount {
+public static void main(String[] args) {
+	
+	Account a = new Account (1000);
+	
+	Account a1 = a;
+	
+	a1.balance = 500;
+	
+	System.out.println(a.balance);
+	System.out.println(a1.balance);
+}
+}

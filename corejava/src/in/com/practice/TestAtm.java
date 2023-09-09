@@ -1,0 +1,11 @@
+package in.com.practice;
+
+public class TestAtm {
+public static void main(String[] args) {
+	
+	Atm a = new Atm();
+	a.setBalance(15000);
+	a.deposite(2500);
+	a.withdraw(16500);
+}
+}

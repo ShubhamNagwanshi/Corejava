@@ -1,0 +1,9 @@
+package in.com.constcalling;
+
+public class B {
+
+	public B() {
+		super(10);
+		System.out.println("This is b const");
+	}
+}

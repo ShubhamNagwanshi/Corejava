@@ -1,0 +1,10 @@
+package in.com.practice;
+
+import in.com.interface1.LoginException;
+
+public class LogIn extends RuntimeException {
+
+	public void LoginException() {
+		super("invalid user");
+	}
+}

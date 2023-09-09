@@ -1,0 +1,14 @@
+package in.com.interface1;
+
+public class Account {
+
+	int balance;
+	
+	public Account () {
+		
+	}
+	
+	public Account(int balance) {
+		this.balance = balance;
+	}
+}
